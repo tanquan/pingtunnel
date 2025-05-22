@@ -3,9 +3,9 @@ on:
   schedule:
     - cron:  '10 11 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - master  # 只有推送到 `master` 分支时才触发
+  # push:
+  #   branches:
+  #     - master  # 只有推送到 `master` 分支时才触发
 
 jobs:
   merge:
